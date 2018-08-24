@@ -15,7 +15,7 @@ from datetime import datetime as dt
 # In[2]:
 
 
-CITY_DATA = { 'chicago': 'chicago.csv',
+NAMES_OF_BIKESHARE_CITIES = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
@@ -48,10 +48,10 @@ def get_filters():
     #get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
             
     city = ""
-    while city.lower() not in CITY_DATA.keys():
+    while city.lower() not in NAMES_OF_BIKESHARE_CITIES.keys():
         city= input("which city do you want to explore? : Chicago, New York or Washington:")
     
-        if city.lower() in CITY_DATA.keys():
+        if city.lower() in NAMES_OF_BIKESHARE_CITIES.keys():
             city = city.lower()
     
         else:
@@ -99,7 +99,7 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
-    df = pd.read_csv(CITY_DATA[city])
+    df = pd.read_csv(NAMES_OF_BIKESHARE_CITIES[city])
     
     print(df.head())
     
@@ -188,8 +188,8 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     # display total travel time
-    Total_travel_time= df["Trip Duration"].sum()
-    print ("Total duration time covered is ", Total_travel_time)
+    Total_Time_of_the_travel= df["Trip Duration"].sum()
+    print ("Total duration time covered is ", Total_Time_of_the_travel)
 
     # display mean travel time
     Mean_travel_time= df["Trip Duration"].mean()
