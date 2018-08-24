@@ -18,6 +18,7 @@ This program also supports direct interaction by allowing the user to choose the
 
 ### Files used
 * Data files with extension CSV washignton.csv , new_york.csv and chicago.csv
+* Download [the data files](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/March/5aa88600_bikeshare/bikeshare.zip)
 * [bikeshare.py](bikeshare.py) - main program, read in user specified data file, allow specification of time period filter, tabulate statistics and show results
 
 ### Credits
