@@ -21,5 +21,17 @@ This program also supports direct interaction by allowing the user to choose the
 * [bikeshare.py](bikeshare.py) - main program, read in user specified data file, allow specification of time period filter, tabulate statistics and show results
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I made a lot of work research in this project also googling with many sites to help me for python coding using panda and visualization 
+
+Here it is some of the links i used during my work :
+
+* https://stackoverflow.com/
+* https://www.quora.com/
+* https://pandas.pydata.org/pandas-docs/stable/
+* https://anaconda.org
+* http://www.republicbike.com
+* https://www.motivateco.com/
+* https://en.wikipedia.org/wiki/Data_wrangling
+
+
 
