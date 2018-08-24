@@ -17,7 +17,8 @@ The program reads in the specified CSV data file and answers interesting questio
 This program also supports direct interaction by allowing the user to choose the city file and optionally specify a time period filter.
 
 ### Files used
-Include the files used
+* Data files with extension CSV washignton.csv , new_york.csv and chicago.csv
+* [bikeshare.py](bikeshare.py) - main program, read in user specified data file, allow specification of time period filter, tabulate statistics and show results
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
